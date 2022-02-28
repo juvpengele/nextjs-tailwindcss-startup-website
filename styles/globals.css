@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply px-8 py-2 bg-blue-700 flex  text-white rounded-lg;
+}
