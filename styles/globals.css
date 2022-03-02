@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 .btn {
-  @apply px-8 py-2 bg-blue-700 flex  text-white rounded-lg;
+  @apply px-8 py-2 bg-blue-700 inline-flex text-white rounded-lg;
+}
+
+.btn-lg {
+  @apply px-12 py-4;
 }

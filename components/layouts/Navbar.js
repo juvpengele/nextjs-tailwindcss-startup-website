@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Button from "../shared/Button";
 
 function Navbar() {
     return (
@@ -14,14 +15,13 @@ function Navbar() {
                     />
                 </a>
             </Link>
-            
 
             <div className="flex items-center">
                 <Link href="/pricing"><a className="px-4 font-semibold text-gray-400">Pricing</a></Link>
                 <Link href="/about-us"><a className="px-6 font-semibold text-gray-400">About us</a></Link>
                 <Link href="/contact"><a className="px-6  font-semibold text-gray-400">Contact</a></Link>
                 <Link href="#"><a className="px-6 text-blue-700 font-semibold">Login</a></Link>
-                <Link href="#"><a className="px-6 font-semibold btn">Sign Up</a></Link>
+                <Button href="#" class="px-6">Sign up</Button>
             </div>
         </div>
     )
