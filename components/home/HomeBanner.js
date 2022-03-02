@@ -24,7 +24,7 @@ function HomeBanner() {
             </div>
             <div className="hidden lg:flex lg:justify-end lg:w-1/2 ">
                 <Image 
-                    src="/home-banner.png" 
+                    src="/assets/img/home-banner.png" 
                     alt="Home banner"
                     width="500"
                     height="500"
