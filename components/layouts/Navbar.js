@@ -11,7 +11,7 @@ function Navbar() {
                 <Link href="/">
                     <a>
                         <Image 
-                            src="/logo.svg"
+                            src="/assets/img/logo.svg"
                             height={70} 
                             width={70}
                             alt="Logo"
@@ -29,7 +29,7 @@ function Navbar() {
                 <Link href="/contact"><a className="py-4 px-4  font-semibold text-gray-400">Contact</a></Link>
                 <Link href="#"><a className="py-4 px-4 text-blue-700 font-semibold">Login</a></Link>
                 <Button href="#" class="py-4 px-6">Sign up</Button>
-            </div>
+            </div> 
             
         </div>
     )
