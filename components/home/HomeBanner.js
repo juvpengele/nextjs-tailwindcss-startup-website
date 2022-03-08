@@ -3,7 +3,7 @@ import Button from "../shared/Button";
 
 function HomeBanner() {
     return (
-        <div className="py-10 flex flex-col lg:flex-row items-center">
+        <section className="py-10 flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-1/2">
                 <div className="w-full lg:w-4/5">
                     <h1 className="text-5xl lg:text-6xl font-bold py-4">
@@ -30,7 +30,7 @@ function HomeBanner() {
                     height="500"
                 />
             </div>
-        </div>
+        </section>
     )
 }
 

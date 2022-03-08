@@ -80,9 +80,7 @@ export default function Price() {
                                     
                                     {  renderItems(items) }
 
-                                    <Button href="#" size='lg' className='my-10 w-full flex 
-                                        justify-center
-                                    '>Buy now</Button>
+                                    <Button href="#" size='lg' className='my-10 w-full flex justify-center'>Buy now</Button>
                                 </div>
                             </div>
                         ))

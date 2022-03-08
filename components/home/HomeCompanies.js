@@ -11,7 +11,7 @@ const companies = [
 
 export default function HomeCompanies() {
     return (
-        <div className="py-16 text-center">
+        <section className="py-16 text-center">
             <span className="text-gray-400 ">
                 Thousands of teams worldwide are using Hugi
             </span>
@@ -33,6 +33,6 @@ export default function HomeCompanies() {
                 }
                 
             </div>
-        </div>
+        </section>
     )
 }
