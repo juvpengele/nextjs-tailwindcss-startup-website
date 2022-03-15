@@ -67,9 +67,9 @@ export default function Price() {
                 <div className="flex flex-wrap lg:-mx-6">
                     {
                         prices.map(({ amount, description, items, name}) => (
-                            <div key={name} className="w-full xl:w-1/3 px-4 lg:px-6 py-6 my-6 ">
+                            <div key={name} className="w-full md:w-1/2  xl:w-1/3 lg:px-6 py-6 my-6 ">
                                 <div className="border border-4 border-gray-200 rounded-lg 
-                                    flex flex-col items-center px-4 py-10 lg:px-16
+                                    flex flex-col items-center px-4 py-8 lg:px-16
                                 ">
                                     <div className="py-10">
                                         <span className="text-2xl font-bold">{`$${amount}`}</span>
@@ -80,7 +80,7 @@ export default function Price() {
                                     
                                     {  renderItems(items) }
 
-                                    <Button href="#" size='lg' className='my-10 w-full flex justify-center'>Buy now</Button>
+                                    <Button href="#" size='lg' className='my-6 w-full flex justify-center'>Buy now</Button>
                                 </div>
                             </div>
                         ))

@@ -4,10 +4,9 @@ export default function Layout({ children }) {
     return (
         <>
             <Navbar />
-            <div className="container mx-auto">
+            <div className="container px-4">
                 { children }
             </div>
-            
         </>
     )
 }

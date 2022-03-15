@@ -11,10 +11,19 @@ function sizeClassName(size) {
     return sizeMap[size] || sizeMap.md;
 }
 
+function variantClassName(variant) {
+    if(variant === 'white') {
+        return 'btn-white'
+    }
+
+
+    return 'btn-primary';
+}
+
 function Button({ children, href, variant, size, className }) {
 
     const getClassName = () => {
-        return `btn ${className} ${sizeClassName(size)}`;
+        return ` btn ${className} ${sizeClassName(size)} ${variantClassName(variant)}`;
     };
 
     return (
@@ -34,6 +43,7 @@ Button.defaultProps = {
 Button.propTypes = {
     href: PropTypes.string.isRequired,
     size: PropTypes.oneOf(['sm', 'md', 'lg']),
+    variant: PropTypes.oneOf(['white', 'primary']),
     className: PropTypes.string
 }
 

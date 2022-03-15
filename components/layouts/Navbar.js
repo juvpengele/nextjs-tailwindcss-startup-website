@@ -5,7 +5,7 @@ import Button from "../shared/Button";
 function Navbar() {
     return (
         <div className="container mx-auto flex flex-col lg:flex-row items-start lg:items-center 
-            justify-between py-6"
+            justify-between py-6 px-4"
         >
             <div className="flex items-center justify-between w-full">
                 <Link href="/">

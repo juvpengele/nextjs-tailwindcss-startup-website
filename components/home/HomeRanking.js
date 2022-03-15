@@ -26,10 +26,12 @@ export default function HomeRanking() {
     return (
         <section className="my-20">
             <h3 className="font-bold text-3xl text-center">Happy User</h3>
-            <div className="my-20 flex flex-wrap items-center -mx-4">
+            <div className="my-20 flex flex-wrap items-center  lg:-mx-4">
                 {
                     rankings.map((ranking) => (
-                        <div className="w-full xl:w-1/3 px-0 lg:px-4  " key={ranking.title}>
+                        <div className="w-full md:w-1/2 md:px-2 xl:w-1/3 px-0 lg:px-4  " 
+                            key={ranking.title}
+                        >
                             <div className="shadow-xl px-12 py-16 rounded-lg flex flex-col justify-center items-center">
                                 <span className="text-2xl font-semibold text-center">
                                     { ranking.title }

@@ -5,7 +5,15 @@
 @tailwind utilities;
 
 .btn {
-  @apply px-8 py-2 bg-blue-700 inline-flex text-white rounded-lg;
+  @apply px-8 py-2 inline-flex text-white rounded-lg items-center justify-center;
+}
+
+.btn-primary {
+  @apply bg-blue-700 text-white;
+}
+
+.btn-white {
+  @apply bg-white text-blue-700;
 }
 
 .btn-lg {

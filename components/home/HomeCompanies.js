@@ -24,8 +24,8 @@ export default function HomeCompanies() {
                             <Image 
                                 src={`/assets/img/companies/${company.logo}`}
                                 alt={`${company.name} Logo`}
-                                width={200}
-                                height={50}
+                                width={190}
+                                height={40}
                                 objectFit="contain"
                             />
                         </div>

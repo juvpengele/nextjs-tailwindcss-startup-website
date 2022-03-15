@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Button from "../shared/Button";
 
+import { IoChevronForward } from 'react-icons/io5'
+
 function HomeBanner() {
     return (
         <section className="py-10 flex flex-col lg:flex-row items-center">
@@ -14,7 +16,7 @@ function HomeBanner() {
                         and other leading sites to help grow your business, - Start Today.
                     </p>
                     <div className="flex py-4 items-center">
-                        <Button href="#" size="lg" className="mr-4">Try it for free > </Button>
+                        <Button href="#" size="lg" className="mr-4">Try it for free <IoChevronForward /> </Button>
                         <small className="text-gray-400">
                             * No credit card required
                         </small>
