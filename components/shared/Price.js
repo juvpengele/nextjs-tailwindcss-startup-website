@@ -55,7 +55,7 @@ export default function Price() {
     )
 
     return (
-        <div className="py-16">
+        <section className="py-16">
             <div className="text-center">
                 <h2 className="text-4xl py-6 font-bold">Get complete peace of mind online</h2>
                 <p className="text-gray-400">
@@ -87,6 +87,6 @@ export default function Price() {
                     }
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
