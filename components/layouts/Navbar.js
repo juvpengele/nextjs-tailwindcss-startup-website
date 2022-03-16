@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "../shared/Button";
+import NavLink from "../shared/NavLink";
 
 function Navbar() {
     return (
@@ -24,10 +25,14 @@ function Navbar() {
             </div>
             
             <div className="flex flex-col lg:flex-row w-full items-center lg:justify-end">
-                <Link href="/pricing"><a className="py-4 px-4 font-semibold text-gray-400">Pricing</a></Link>
-                <Link href="/about-us"><a className="py-4 px-4 font-semibold text-gray-400">About us</a></Link>
-                <Link href="/contact"><a className="py-4 px-4  font-semibold text-gray-400">Contact</a></Link>
-                <Link href="#"><a className="py-4 px-4 text-blue-700 font-semibold">Login</a></Link>
+                <Link href="/pricing" passHref>
+                    <NavLink>
+                        Pricing
+                    </NavLink>
+                </Link>
+                <Link href="/about-us" passHref><NavLink>About us</NavLink></Link>
+                <Link href="/contact" passHref><NavLink>Contact</NavLink></Link>
+                <Link href="#" passHref><NavLink>Login</NavLink></Link>
                 <Button href="#" class="py-4 px-6">Sign up</Button>
             </div> 
             
