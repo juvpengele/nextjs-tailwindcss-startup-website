@@ -1,4 +1,5 @@
 import Image from "next/image"
+import PostCard from "./PostCard"
 
 const posts = [
     {
@@ -25,22 +26,9 @@ const posts = [
 export default function AboutPosts() {
     return (
         <>
-            <div>
-                { posts.map(post => (
-                    <div key={post.cover}>
-                        <Image
-                            src={post.cover}
-                            width={200}
-                            height={200}
-                            alt={post.title}
-                        />
-                        <h4>{ post.title }</h4>
-                        <p>
-                            { post.content }
-                        </p>
-                        <small>{ post.date }</small>
-                    </div>
-                ))}
+            <h2 className="text-center font-bold text-4xl mb-8">What's going on at Hugi ?</h2>
+            <div className="flex flex-wrap justify-between -mx-2 lg:-mx-4 xl:-mx-6">
+                { posts.map(post => <PostCard post={post} key={post.title} />)}
             </div>
         </>
     )
