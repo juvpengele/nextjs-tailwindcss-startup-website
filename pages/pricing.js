@@ -1,11 +1,15 @@
 import Price from "../components/shared/Price";
 import Button from "../components/shared/Button";
 import Image from "next/image";
+import Head from 'next/head'
 
 export default function Pricing() {
     return (
         <>
-            <div className="py-10 flex flex-wrap items-center justify-center">
+            <Head>
+                <title>Pricing | Hugi</title>
+            </Head>
+                <div className="py-10 flex flex-wrap items-center justify-center">
                 <div className="w-full lg:w-1/2">
                     <Button href="#">
                         Back to school - up to %40 off

@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import HomeBanner from '../components/home/HomeBanner'
 import HomeCompanies from '../components/home/HomeCompanies'
 import HomeCta from '../components/home/HomeCta'
@@ -10,6 +9,9 @@ import Price from '../components/shared/Price'
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title>Home | Hugi</title>
+      </Head>
       <HomeBanner />
       <HomeCompanies />
       <Price />  

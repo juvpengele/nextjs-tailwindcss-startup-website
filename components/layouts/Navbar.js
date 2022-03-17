@@ -32,8 +32,8 @@ function Navbar() {
                 </Link>
                 <Link href="/about-us" passHref><NavLink>About us</NavLink></Link>
                 <Link href="/contact" passHref><NavLink>Contact</NavLink></Link>
-                <Link href="#" passHref><NavLink>Login</NavLink></Link>
-                <Button href="#" class="py-4 px-6">Sign up</Button>
+                <Link href="/#" passHref><NavLink>Login</NavLink></Link>
+                <Button href="#" className="py-4 pl-6">Sign up</Button>
             </div> 
             
         </div>
