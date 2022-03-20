@@ -26,7 +26,7 @@ const posts = [
 export default function AboutPosts() {
     return (
         <>
-            <h2 className="text-center font-bold text-4xl mb-8">What's going on at Hugi ?</h2>
+            <h2 className="text-center font-bold text-4xl mb-8">What&apos;s going on at Hugi ?</h2>
             <div className="flex flex-wrap justify-between -mx-2 lg:-mx-4 xl:-mx-6">
                 { posts.map(post => <PostCard post={post} key={post.title} />)}
             </div>
