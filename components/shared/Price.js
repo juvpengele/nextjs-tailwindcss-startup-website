@@ -64,11 +64,14 @@ export default function Price() {
                 </p>
             </div>
             <div>
-                <div className="flex flex-wrap lg:-mx-6">
+                <div className="flex flex-wrap mx-0 md:-mx-2 lg:-mx-6">
                     {
                         prices.map(({ amount, description, items, name}) => (
-                            <div key={name} className="w-full md:w-1/2  xl:w-1/3 lg:px-6 py-6 my-6 ">
-                                <div className="border border-4 border-gray-200 rounded-lg 
+                            <div key={name} className="
+                                w-full px-0 py-6 my-6 md:w-1/2 md:px-2 xl:w-1/3 lg:px-6 "
+                            >
+                                <div className="
+                                    border border-4 border-gray-200 rounded-lg 
                                     flex flex-col items-center px-4 py-8 lg:px-10
                                 ">
                                     <div className="py-8">

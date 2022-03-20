@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function AboutBanner() {
     return (
         <div className="mb-20">
-            <div className="flex flex-col py-20 lg:flex-row lg:items-center">
+            <div className="flex flex-col py-14 lg:flex-row lg:items-center">
                 <div className="py-6 w-full lg:w-1/3">
                     <h1 className="text-4xl font-bold mb-5 lg:text-5xl">About Hugi</h1>
                     <p className="text-gray-500 mb-6">
