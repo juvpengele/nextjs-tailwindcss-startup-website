@@ -33,7 +33,7 @@ function Navbar() {
                 <Link href="/about-us" passHref><NavLink>About us</NavLink></Link>
                 <Link href="/contact" passHref><NavLink>Contact</NavLink></Link>
                 <Link href="/#" passHref><NavLink>Login</NavLink></Link>
-                <Button href="#" className="py-4 pl-6">Sign up</Button>
+                <Button href="#" className="py-4 pl-6 ml-10">Sign up</Button>
             </div> 
             
         </div>

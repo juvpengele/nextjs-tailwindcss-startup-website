@@ -69,9 +69,9 @@ export default function Price() {
                         prices.map(({ amount, description, items, name}) => (
                             <div key={name} className="w-full md:w-1/2  xl:w-1/3 lg:px-6 py-6 my-6 ">
                                 <div className="border border-4 border-gray-200 rounded-lg 
-                                    flex flex-col items-center px-4 py-8 lg:px-16
+                                    flex flex-col items-center px-4 py-8 lg:px-10
                                 ">
-                                    <div className="py-10">
+                                    <div className="py-8">
                                         <span className="text-2xl font-bold">{`$${amount}`}</span>
                                         <span className="text-gray-500 font-semibold">/year</span>
                                     </div>

@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .btn {
-  @apply px-8 py-2 inline-flex text-white rounded-lg items-center justify-center;
+  @apply px-7 py-3 inline-flex text-white rounded-lg items-center justify-center;
 }
 
 .btn-primary {
